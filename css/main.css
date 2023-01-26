@@ -82,15 +82,15 @@ header {
 }
 
 .carousel-img-one {
-  background-image: url("/src/img/car1_640.jpg");
+  background-image: url("../src/img/car1_640.jpg");
 }
 
 .carousel-img-two {
-  background-image: url("/src/img/car2_640.jpg");
+  background-image: url("../src/img/car2_640.jpg");
 }
 
 .carousel-img-three {
-  background-image: url("/src/img/car3_640.jpg");
+  background-image: url("../src/img/car3_640.jpg");
 }
 
 main {
@@ -113,7 +113,7 @@ main {
   position: relative;
   background-position: center;
   background-size: cover;
-  background-image: url("/src/img/main_640.jpg");
+  background-image: url("../src/img/main_640.jpg");
   height: 400px;
   z-index: 0;
 }
@@ -129,24 +129,24 @@ footer {
 }
 
 .aboutus-hero {
-  background-image: url("/src/img/frony.jpg");
+  background-image: url("../src/img/frony.jpg");
   background-position: center;
 }
 
 @media (min-width: 1400px) {
   .midle {
-    background-image: url("/src/img/main_1920.jpg");
+    background-image: url("../src/img/main_1920.jpg");
   }
   .carousel-item {
     height: 600px;
   }
   .carousel-img-one {
-    background-image: url("/src/img/car1_1280.jpg");
+    background-image: url("../src/img/car1_1280.jpg");
   }
   .carousel-img-two {
-    background-image: url("/src/img/car2_1280.jpg");
+    background-image: url("../src/img/car2_1280.jpg");
   }
   .carousel-img-three {
-    background-image: url("/src/img/car3_1280.jpg");
+    background-image: url("../src/img/car3_1280.jpg");
   }
 }/*# sourceMappingURL=main.css.map */
