@@ -1,0 +1,152 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.6rem;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+  font-size: 2.5rem;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.container a {
+  font-size: 2rem;
+}
+.container a i {
+  margin-right: 0.5em;
+}
+
+.navbar-nav a {
+  margin-right: 0.5em;
+}
+
+header {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.carousel-img-one {
+  background-image: url("/src/img/car1_640.jpg");
+}
+
+.carousel-img-two {
+  background-image: url("/src/img/car2_640.jpg");
+}
+
+.carousel-img-three {
+  background-image: url("/src/img/car3_640.jpg");
+}
+
+main {
+  font-size: 2rem;
+}
+
+.home-boxes {
+  padding: 5em 0;
+}
+
+.home-box i {
+  font-size: 4rem;
+}
+.home-box .home-header {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.home-passion {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/src/img/main_640.jpg");
+  height: 400px;
+  z-index: 0;
+}
+
+.history-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+footer {
+  bottom: 0;
+  font-size: 1.6rem;
+}
+
+.aboutus-hero {
+  background-image: url("/src/img/frony.jpg");
+  background-position: center;
+}
+
+@media (min-width: 1400px) {
+  .midle {
+    background-image: url("/src/img/main_1920.jpg");
+  }
+  .carousel-item {
+    height: 600px;
+  }
+  .carousel-img-one {
+    background-image: url("/src/img/car1_1280.jpg");
+  }
+  .carousel-img-two {
+    background-image: url("/src/img/car2_1280.jpg");
+  }
+  .carousel-img-three {
+    background-image: url("/src/img/car3_1280.jpg");
+  }
+}/*# sourceMappingURL=main.css.map */
